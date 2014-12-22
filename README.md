@@ -11,7 +11,7 @@ Department of Computer Science
 
 Columbia University
 
-ssb2171@columbia.edu
+ssb2171 [at] columbia [dot] edu
 
 
 ##### Yash Parikh
@@ -20,7 +20,7 @@ Department of Computer Science
 
 Columbia University
 
-yp2348@columbia.edu
+yp2348 [at] columbia [dot] edu
 
 
 ##### Prateek Sinha
@@ -29,7 +29,7 @@ Department of Computer Science
 
 Columbia University
 
-ps2791@columbia.edu
+ps2791 [at] columbia [dot] edu
 
 
 ### How to use this Project?
