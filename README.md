@@ -35,10 +35,14 @@ ps2791@columbia.edu
 ### How to use this Project?
 
 1. After downloading the source code from here and the dataset, you must first run the data extractor files found [here](./data_extractor)
+
 2. The data extractor will create CSV files which can be used with Hive.
    Note: You may have to modify the extraction scripts to give the path and filenames of your choice. Also, you can modify the columns being selected to work with any dataset of your choice.
+
 3. After the data has been extracted, you may run the Hive Script found [here](./hive_scripts) which __contains the recommendation algorithm__.
+
 4. The output of Hive will go to S3. You will have to modify it to target your S3 bucket.
+
 5. Next, you need to modify the REST_API [here](./rest_api/GetYelpRecos)
 
    a. You need to modify the [RecoLister.java](./rest_api/GetYelpRecos/src/org/bigdata/handlerequest/RecoLister.java) file to add your own AWS credentials and also the change the path in the bucket where the output of Hive goes.
